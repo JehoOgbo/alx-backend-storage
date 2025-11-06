@@ -71,3 +71,46 @@ Requirements:
         - user_id, a users.id value (you can assume user_id is linked to an existing users)
         - project_name, a new or already exists projects - if no projects.name found in the table, you should create it
         - score, the score value for the correction
+
+### [7-average_score.sql](./7-average_score.sql)
+Write a SQL script that creates a stored procedure
+ComputeAverageScoreForUser that computes and store the average
+score for a student. Note: An average score can be a decimal
+
+Requirements:
+
+    - Procedure ComputeAverageScoreForUser is taking 1 input:
+        - user_id, a users.id value (you can assume user_id is linked to an existing users)
+
+### [8-index_my_names.sql](./8-index_my_names.sql)
+Write a SQL script that creates an index idx_name_first on the
+table names and the first letter of name.
+
+Requirements:
+
+    - Import this table dump: names.sql.zip
+    - Only the first letter of name must be indexed
+
+Context: Index is not the solution for any performance issue, but well used, it’s really powerful!
+
+### [9-index_name_score.sql](./9-index_name_score.sql)
+Write a SQL script that creates an index idx_name_first_score on
+the table names and the first letter of name and the score.
+
+Requirements:
+
+    - Import this table dump: names.sql.zip
+    - Only the first letter of name AND score must be indexed
+
+### [10-div.sql](./10-div.sql)
+Write a SQL script that creates a function SafeDiv that divides
+(and returns) the first by the second number or returns 0 if the
+second number is equal to 0.
+
+Requirements:
+
+    - You must create a function
+    - The function SafeDiv takes 2 arguments:
+        - a, INT
+        - b, INT
+    -And returns a / b or 0 if b == 0
