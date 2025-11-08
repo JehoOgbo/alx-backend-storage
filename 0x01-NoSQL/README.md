@@ -15,3 +15,6 @@ Lists all documents in the collection school
 
 ### [4-match](./4-match)
 Lists all documents with a particular key-value pair
+
+### [5-count](./5-count)
+Displays the number of documents in a collection
