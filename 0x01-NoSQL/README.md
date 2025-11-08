@@ -12,3 +12,6 @@ Contains a mongosh script that inserts a document in the collection school
 
 ### [3-all](./3-all)
 Lists all documents in the collection school
+
+### [4-match](./4-match)
+Lists all documents with a particular key-value pair
