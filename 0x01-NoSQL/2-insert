@@ -1,0 +1,4 @@
+// insert a document in the collection school
+// collection is implicitly created in MongoDB
+db.school.insertOne({ name: "ALX" })
+exit
