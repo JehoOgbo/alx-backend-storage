@@ -18,3 +18,16 @@ Lists all documents with a particular key-value pair
 
 ### [5-count](./5-count)
 Displays the number of documents in a collection
+
+### [6-update](./6-update)
+Add a new attribute to a document in a collection
+
+### [7-delete](./7-delete)
+Deletes all documents with an attribute
+
+### [8-all.py](./8-all.py)
+Write a python function using pymongo that lists all documents
+in a collection
+
+### [9-insert_school.py](./9-insert_school.py)
+Write a Python function that inserts a new document in a collection based on kwargs
