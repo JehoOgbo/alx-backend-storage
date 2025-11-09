@@ -31,3 +31,32 @@ in a collection
 
 ### [9-insert_school.py](./9-insert_school.py)
 Write a Python function that inserts a new document in a collection based on kwargs
+
+### [10-update_topics.py](./10-update_topics.py)
+Write a Python function that changes all topics of a school document based on the name
+
+- Prototype: def update_topics(mongo_collection, name, topics):
+- mongo_collection will be the pymongo collection object
+- name (string) will be the school name to update
+- topics (list of strings) will be the list of topics approached in the school
+
+### [11-schools_by_topic.py](./11-schools_by_topic.py)
+Write a Python function that returns the list of school having a specific topic:
+
+- Prototype: def schools_by_topic(mongo_collection, topic):
+- mongo_collection will be the pymongo collection object
+- topic (string) will be topic searched
+
+### [12-log_stats.py](./12-log_stats.py)
+Write a Python script that provides some stats about Nginx logs
+stored in MongoDB:
+
+- Database: logs
+- Collection: nginx
+- Display (same as the example):
+    ** first line: x logs where x is the number of documents in this collection
+    ** second line: Methods:
+    ** 5 lines with the number of documents with the method = ["GET", "POST", "PUT", "PATCH", "DELETE"] in this order (see example below - warning: it’s a tabulation before each line)
+    ** one line with the number of documents with:
+      - method=GET
+      - path=/status
